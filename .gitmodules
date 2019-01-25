@@ -1,0 +1,6 @@
+[submodule "References/easyio"]
+	path = References/easyio
+	url = https://github.com/matsujirushi/easyio.git
+[submodule "References/MT3620_Grove_Shield"]
+	path = References/MT3620_Grove_Shield
+	url = https://github.com/Seeed-Studio/MT3620_Grove_Shield.git

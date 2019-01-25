@@ -1,0 +1,17 @@
+{
+  "SchemaVersion": 1,
+  "Name" : "AzureSphereDevice",
+  "ComponentId" : "9d18407c-eb5e-4b80-bb42-c0677f4e5985",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [ "" ],
+    "AllowedTcpServerPorts": [],
+    "AllowedUdpServerPorts": [],
+    "Gpio": [ 4, 57, 58, 9, 15, 18, 21 ],
+    "Uart": [ "ISU0" ],
+    "WifiConfig": false,
+    "NetworkConfig": false,
+    "SystemTime": false
+  }
+}

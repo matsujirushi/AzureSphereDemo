@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AzureSphereDevice", "AzureSphereDevice.vcxproj", "{2E25E2A8-B631-482A-8CAD-218F000E32A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MT3620_Grove_Shield_Library", "..\References\MT3620_Grove_Shield\MT3620_Grove_Shield_Library\MT3620_Grove_Shield_Library.vcxproj", "{A4F0A16D-B28D-4249-9B0A-EEEC5090F21D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "easyio", "..\References\easyio\src\easyio.vcxproj", "{5EF0F778-8F31-4829-B7EC-1CC80438BCC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E25E2A8-B631-482A-8CAD-218F000E32A8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2E25E2A8-B631-482A-8CAD-218F000E32A8}.Debug|ARM.Build.0 = Debug|ARM
+		{2E25E2A8-B631-482A-8CAD-218F000E32A8}.Release|ARM.ActiveCfg = Release|ARM
+		{2E25E2A8-B631-482A-8CAD-218F000E32A8}.Release|ARM.Build.0 = Release|ARM
+		{A4F0A16D-B28D-4249-9B0A-EEEC5090F21D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A4F0A16D-B28D-4249-9B0A-EEEC5090F21D}.Debug|ARM.Build.0 = Debug|ARM
+		{A4F0A16D-B28D-4249-9B0A-EEEC5090F21D}.Release|ARM.ActiveCfg = Release|ARM
+		{A4F0A16D-B28D-4249-9B0A-EEEC5090F21D}.Release|ARM.Build.0 = Release|ARM
+		{5EF0F778-8F31-4829-B7EC-1CC80438BCC1}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5EF0F778-8F31-4829-B7EC-1CC80438BCC1}.Debug|ARM.Build.0 = Debug|ARM
+		{5EF0F778-8F31-4829-B7EC-1CC80438BCC1}.Release|ARM.ActiveCfg = Release|ARM
+		{5EF0F778-8F31-4829-B7EC-1CC80438BCC1}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE51DC9F-15D0-4808-B483-70DC62C9F4CF}
+	EndGlobalSection
+EndGlobal
