@@ -1,0 +1,14 @@
+{
+  "SchemaVersion": 1,
+  "Name" : "GpsApp",
+  "ComponentId" : "613221e8-d3d9-4b15-9519-fbccdb603fdf",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [],
+    "Gpio": [ 9 ],
+    "Uart": [ "ISU3" ],
+    "WifiConfig": false
+  },
+  "ApplicationType":"Default"
+}
